@@ -1,0 +1,10 @@
+.navbar {
+  padding: 2rem 2rem;
+  background-color: #2b2c37;
+}
+
+.navbar a {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  font-family: 'Arial';
+}
