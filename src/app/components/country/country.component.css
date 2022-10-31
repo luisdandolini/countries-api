@@ -1,0 +1,45 @@
+section {
+  padding: 5rem 5rem;
+}
+
+.container-country {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 218px;
+  background-color:rgb(164, 184, 177);
+  border-radius: 5px;
+}
+
+.country img {
+  text-align: center;
+  width: 218px !important;
+  height: 150px !important;
+}
+
+
+.name {
+  margin: 1.5rem 1rem;
+  font-family: 'Arial';
+}
+
+.population {
+  margin: 0rem 1rem;
+  font-family: 'Arial';
+}
+
+.region {
+  margin: 1rem 1rem;
+  font-family: 'Arial';
+}
+
+.capital {
+  margin: 0 0 2rem 1rem;
+  font-family: 'Arial';
+}
