@@ -1,7 +1,14 @@
+interface name {
+  common: string;
+}
+
+interface flags {
+  svg: string;
+}
 export interface Country {
-  name: string;
+  name: name;
   population: string;
   region: string;
   capital: string;
-  flag: string;
+  flags: flags;
 }
