@@ -5,6 +5,7 @@ section {
 .container-country {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
 }
 
@@ -13,14 +14,14 @@ section {
   flex-direction: column;
   justify-content: center;
   width: 218px;
-  background-color:rgb(164, 184, 177);
+  background-color:rgb(218 223 221);
   border-radius: 5px;
 }
 
 .country img {
   text-align: center;
-  width: 218px !important;
-  height: 150px !important;
+  max-width: 218px !important;
+  max-height: 128px !important;
 }
 
 
